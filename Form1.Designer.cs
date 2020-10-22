@@ -28,13 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btngo = new System.Windows.Forms.Button();
+            this.rtbMsg = new System.Windows.Forms.RichTextBox();
+            this.SuspendLayout();
+            // 
+            // btngo
+            // 
+            this.btngo.Location = new System.Drawing.Point(330, 241);
+            this.btngo.Name = "btngo";
+            this.btngo.Size = new System.Drawing.Size(151, 96);
+            this.btngo.TabIndex = 0;
+            this.btngo.Text = "GO";
+            this.btngo.UseVisualStyleBackColor = true;
+            // 
+            // rtbMsg
+            // 
+            this.rtbMsg.Location = new System.Drawing.Point(42, 64);
+            this.rtbMsg.Name = "rtbMsg";
+            this.rtbMsg.Size = new System.Drawing.Size(721, 145);
+            this.rtbMsg.TabIndex = 1;
+            this.rtbMsg.Text = "";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rtbMsg);
+            this.Controls.Add(this.btngo);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btngo;
+        private System.Windows.Forms.RichTextBox rtbMsg;
     }
 }
 
