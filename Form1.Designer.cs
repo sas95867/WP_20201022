@@ -40,6 +40,7 @@
             this.btngo.TabIndex = 0;
             this.btngo.Text = "GO";
             this.btngo.UseVisualStyleBackColor = true;
+            this.btngo.Click += new System.EventHandler(this.btngo_Click);
             // 
             // rtbMsg
             // 
